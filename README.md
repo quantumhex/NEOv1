@@ -1,4 +1,8 @@
 
+> OSM_NEOv1-1-4b Folder (Arduino Library)
+Instructions: 
+Copy the "OSM_NEOv1-1-4b" folder and install it on the Arduino Library:
+Arduino : Sketch > Import Library > Add Library... (Select "OSM_NEOv1-1-4b" folder)
 
 * NEO for the Open Source Microlight
 * Version: 1.1.4b
