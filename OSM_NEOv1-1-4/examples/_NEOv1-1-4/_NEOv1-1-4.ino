@@ -115,7 +115,7 @@ Libraries:
 #include <Wire.h>        // I2C LIBRARY
 #include <EEPROM.h>      // EEPROM READ AND WRITE
 #include <avr/pgmspace.h>// MEMORY SAVING LIBRARY
-#include <OSM_NEOv1-1-4b.h>   // HIGHJACKED MMA7660 LIBRARY (FOR BETTER ORGANIZATION)
+#include <OSM_NEOv1-1-4.h>   // HIGHJACKED MMA7660 LIBRARY (FOR BETTER ORGANIZATION)
 #include <avr/wdt.h>
 
 
