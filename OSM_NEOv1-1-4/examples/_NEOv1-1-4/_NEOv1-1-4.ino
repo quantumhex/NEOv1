@@ -10,8 +10,8 @@ __      ____      ____      __     | |  | | (___ | \  / |       ___ ___   __| | 
 6a 75 73 74 20 6e 65 65 64 20 74 6f 20 70 75 74 20 69 74 20 69 6e 20 70 72 61 63 74 69 63 65 2e 0d 0a
 /*******************************************************************************
 * NEO for the Open Source Microlight
-* Version: 1.1.4b
-* Date: 08-15-2015
+* Version: 1.1.4 (Release)
+* Date: 08-17-2015
 * Company: Quantum Hex LLC
 * Author: Ramiro Montes De Oca
 * Product Page: http://www.osm.codes
@@ -35,14 +35,16 @@ __      ____      ____      __     | |  | | (___ | \  / |       ___ ___   __| | 
             KNOWN ISSUES: Color Pallete. It's being fixed on v1.2.2
 * 1.1.3b    5 AM Omar's Edition 
             - "I don't think my chips remember which bundle they are on?" Fixed	
-* 1.1.4b    This will try to fix a initiation timing that caused some chips not
+* 1.1.4     This will fix a initiation timing that caused some chips not
             to work properly. This was a 50%-50% chances of having a not working chip.
             This hardware/software glitch affected v1.1.2b an v1.1.3b
             Thanks Theo Dee for spot the bug. 
             The safety valve for this chip before going to deep sleep it's 18 seconds.
             You have 18 seconds to do master reset or bundle changes. Once you click
             before those 18 seconds you have all the time in the world to proceed with 
-            you changes.                  
+            you changes. 
+            - Disabled (Commented out) Primes 9,10,11,12 for space (Uncomment to use them)
+            - If you need extra space, try commenting out line 105 -> "#define VISUAL..." to "//#define VISUAL ..."             
 *******************************************************************************/
 
 // Author's Contributions:

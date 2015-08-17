@@ -29,7 +29,7 @@
 
  //#include "OSM_MMA7660_v20.h"
 
-#include "OSM_NEOv1-1-4b.h"
+#include "OSM_NEOv1-1-4.h"
 #include "Arduino.h"
 #include <Wire.h>
 
